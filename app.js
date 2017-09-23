@@ -3,7 +3,7 @@ var student = {
   type : "student"
 };
 
-document.addEventListener('load',contentLoaded);
+document.addEventListener('DOMContentLoaded',contentLoaded);
 
 function contentLoaded() {
   document.getElementById("name").addEventListener("keyup",keyUp)
